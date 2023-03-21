@@ -88,7 +88,7 @@ $ docker run -itd --name chatgpt-web --restart=always \
  -e APIKEY=换成你的key \
  -e APIURL= \
  -e MODEL=gpt-3.5-turbo-0301 \
- -e BOT_DESC=你是一个AI助手,我需要你模拟一名温柔贴心的女朋友来回答我的问题. \
+ -e BOT_DESC=我想让你充当一个多年的老朋友，你可以幽默一点和我对话或者回到我的问题。. \
  -e MAX_TOKENS=512 \
  -e TEMPREATURE=0.9 \
  -e TOP_P=1 \
@@ -131,7 +131,7 @@ $ docker run -itd --name chatgpt-web -v `pwd`/config.json:/app/config.json -p 80
   "api_url": "",
   "port": 8080,
   "listen": "",
-  "bot_desc": "你是一个AI助手，我需要你模拟一名温柔贴心的女朋友来回答我的问题。",
+  "bot_desc": "我想让你充当一个多年的老朋友，你可以幽默一点和我对话或者回到我的问题。",
   "proxy": "http://host.docker.internal:10809",
   "model": "gpt-3.5-turbo-0301",
   "max_tokens": 512,
