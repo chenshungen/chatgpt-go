@@ -34,7 +34,7 @@ const initialMessages = [
   {
     type: 'text',
     content: {
-      text: '您好，我是AI助理',
+      text: '你好，很高兴在这里遇见你',
     },
     user: { avatar: '//gitclone.com/download1/gitclone.png' },
   },
@@ -187,7 +187,7 @@ function App() {
               title: 'More',
             },
           ],
-          title: '基于ChatGPT的AI助手',
+          title: '来自ChatGPT的朋友',
         }}
         messages={messages}
         renderMessageContent={renderMessageContent}
